@@ -1,30 +1,25 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 .hero-unit {
-  background-color: #fff;
+  background: #fff;
 }
-
-#location, #sandimetz, #schedule, #clearfit {
-  padding-top:12em;
+img {
+  max-height: 250px;
+  max-width: 250px;
 }
-
-#location h1, #sandimetz h1, #schedule h1, #clearfit h1 {
-  padding-top:3em;
+.extreme_startups {
+  background: #3d8ec5;
+  max-width: 250px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media(max-width: 767px) {
+  .span3 {
+    text-align: center;
+  }
+  li {
+    margin:auto;
+  }
+  .extreme_startups {
+    margin: auto;
+  }
+}

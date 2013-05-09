@@ -3,11 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Sina Jahan -- Chief Hustler -- @sinajahan2
+    Matt Stevens -- Chief Slacker -- @mattgstevens
 
 # THANKS
 
-    <name>
+    Derek Marshall
+    ClearFit
+    ExtremeStartups
 
 # TECHNOLOGY COLOPHON
 

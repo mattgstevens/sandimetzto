@@ -13,7 +13,6 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <style>
     body {
@@ -23,7 +22,6 @@
   </style>
   <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
   <link rel="stylesheet" href="css/main.css">
-
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
@@ -33,11 +31,7 @@
     href="http://www.google.com/chromeframe/?redirect=true">activate Google
     Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
-
-<!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
 <div class="container">
-  <!-- Main hero unit for a primary marketing message or call to action -->
   <div class="hero-unit">
     <h1>Sandi Metz Toronto</h1>
     <br/>
@@ -47,51 +41,59 @@
   <div class="row">
     <div class="span3">
       <h2>Schedule</h2>
-      <p>May 30, 2013</p>
+      <h4>May 30, 2013</h4>
       <p>Doors open at 7pm.</p>
-      <p>7:20 ~ 8pm Sandy Metz presentation.</p>
+      <p>7 - 7:20 Grab a BEvERage, mingle with others</p>
+      <p>7:20 ~ 8 Sandy Metz presentation.</p>
       <p>Closing around 9pm</p>
+      <p><a class="btn" href="http://sandimetzto.eventbrite.ca/" target="_blank">Register for event &raquo;</a></p>
     </div>
     <div class="span3">
       <h2>Location</h2>
       <p>Extreme Startups</p>
       <p>639 Queen Street West, Third Floor</p>
-      <p><a class="btn" target="_blank" href="http://goo.gl/maps/KUN4U">Directions &raquo;</a></p>
+      <p><a href="http://goo.gl/maps/KUN4U">
+        <img class="map" src="/img/map.png"/>
+      </a></p>
     </div>
     <div class="span3">
       <h2>Sandi Metz</h2>
       <p>She is the author of "Practical Object-Oriented Design in Ruby: An Agile Primer"</p>
       <p>Cyclist, Rubyist, reluctant author, obsessive programmer, recalcitrant blogger and the antidote for ambition.</p>
-      <p><a class="btn" href="http://poodr.info" target="_blank">Poodr &raquo;</a></p>
+      <p><a href="http://poodr.info">
+        <img src="/img/sandimetz_small.jpg"/>
+      </a></p>
     </div>
     <div class="span3">
-      <h2>Sponsor</h2>
-      <p>ClearFit uses Ruby and Rails to deliver its main webapp, and we are always interested in talking to fearsomely clever people.
-      <p><a class="btn" href="http://clearfit.com" target="_blank">ClearFit.com &raquo;</a></p>
+      <h2>Sponsors</h2>
+      <p>ClearFit uses Ruby and Rails to deliver its main webapp.</p>
+      <p>We are always interested in talking to fearsomely clever people.</p>
+      <p><a href="http://clearfit.com">
+        <img src="/img/clearfit_logo.png"/>
+      </a></p>
+      <br>
+      <p>Extreme Startups is a technology accelerator in downtown Toronto.</p>
+        <p class="extreme_startups"><a href="http://www.extremestartups.com/">
+          <img src="/img/extreme_startups_logo.png"/>
+        </a></p>
     </div>
   </div>
   <hr>
 </div>
-<!-- /container -->
-
 <script
   src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
 <script src="js/vendor/bootstrap.min.js"></script>
-
 <script src="js/main.js"></script>
-
 <script>
-  var _gaq = [
-    ['_setAccount', 'UA-XXXXX-X'],
-    ['_trackPageview']
-  ];
-  (function (d, t) {
-    var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-    g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s)
-  }(document, 'script'));
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4879402-18', 'sandimetzto.ca');
+  ga('send', 'pageview');
+
 </script>
 </body>
 </html>
